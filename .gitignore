@@ -1,0 +1,6 @@
+node_modules/
+\node_modules/
+\vendor/
+\vendor/**
+vendor/bootstrap/css/bootstrap-grid.css
+vendor/bootstrap/css/bootstrap.css

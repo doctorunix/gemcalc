@@ -1,0 +1,28 @@
+{
+    "host": "doctorunix.x10host.com",
+    "port": 21,
+    "username": "doctorun",
+    "password": "./10Th!7",
+    "protocol": "ftp",
+    "agent": null,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "passive": false,
+    "interactiveAuth": false,
+    "remotePath": "/public_html/",
+    "uploadOnSave": true,
+    "syncMode": "update",
+    "watcher": {
+        "files": false,
+        "autoUpload": false,
+        "autoDelete": false
+    },
+    "ignore": [
+		"**/node_modules/**",
+        "**/.vscode/**",
+        "**/.git/**",
+		"**/.DS_Store",
+		"**/vendor/**"
+    ]
+}
+
