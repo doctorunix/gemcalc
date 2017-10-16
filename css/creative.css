@@ -147,7 +147,7 @@ header.masthead {
   min-height: auto;
   text-align: center;
   color: white;
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/mast.jpg");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -341,4 +341,33 @@ header.masthead {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; }
 
 .btn-xl {
-  padding: 15px 30px; }
+  padding: 15px 30px; 
+  margin: 5px;
+}
+.input-control {
+  border: 2px solid rgb(231, 105, 105);
+  padding: 7px;
+  font-size: 34px;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+  position: relative;
+  transform: translate(0, 0);
+  transition: all .3s cubic-bezier(.25, .8, .25, 1);
+  -webkit-transition: all .3s cubic-bezier(.25, .8, .25, 1);
+  font-family: sans-serif;
+}
+
+.input-control:focus {
+  outline: 0 none;
+  transition: all .3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.input-control:disabled {
+  background-color: white;
+  color: rgb(231, 105, 105);
+}
+#output {
+  font-size: 1.4em !important;
+  font-family: sans-serif;
+}

@@ -3,12 +3,21 @@
 
   <head>
 
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="theme-color" content="#ffffff">
+    
+    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
+    <title>Sinful</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -30,7 +39,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-      <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
+      <a class="navbar-brand" href="#page-top">Sinful</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -55,10 +64,10 @@
     <header class="masthead">
       <div class="header-content">
         <div class="header-content-inner">
-          <h1 id="homeHeading">Your Favorite Source of Free Bootstrap Themes</h1>
+          <h1 id="homeHeading">Sinful's Library of Projects</h1>
           <hr>
-          <p>Start Bootstrap can help you build better websites using the Bootstrap CSS framework! Just download your template and start going, no strings attached!</p>
-          <a class="btn btn-primary btn-xl" href="#about">Find Out More</a>
+          <p style="font-family: sans-serif;">design isn't something to be taken lightly.</p>
+          <a class="btn btn-primary btn-xl" href="#about">Take a look <i class="fa fa-arrow-circle-down"></i></a>
         </div>
       </div>
     </header>
@@ -67,10 +76,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">We've got what you need!</h2>
+            <h2 class="section-heading text-white">About Me</h2>
             <hr class="light">
-            <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-            <a class="btn btn-default btn-xl sr-button" href="#services">Get Started!</a>
+            <p class="text-faded text-justify">
+              I am a young and amateur web developer. Started web development back when Web 2.0 was discovering what it was. 
+              I never anticipated the web being where it is today, however, I wouldn't take it any other way. The 2-Dimensional flat design is what I've always wanted and never realized it. 
+              Gradients, excessive shadows, high contrast colors that made no sense have always been an eyesore. Here you will find doodles and small things I've thrown together. 
+              I'm not the most amazing programmer, however, what I do make sure is that the user interface and experience are something that everyone will enjoy and <i>understand</i>
+              I consider myself an advanced if not expert <b>user</b>, and when I come across an application for computer or mobile that is clunky or non-intuitive, I tend to being looking for something better almost immediately.
+            </p>                
           </div>
         </div>
       </div>
@@ -80,42 +94,20 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading">At Your Service</h2>
+            <h2 class="section-heading">Trove Damage Calculator</h2>
             <hr class="primary">
           </div>
         </div>
       </div>
-      <div class="container">
+      <div class="container text-center">
         <div class="row">
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-              <h3>Sturdy Templates</h3>
-              <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-              <h3>Ready to Ship</h3>
-              <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-              <h3>Up to Date</h3>
-              <p class="text-muted">We update dependencies to keep things fresh.</p>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-            <div class="service-box">
-              <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-              <h3>Made with Love</h3>
-              <p class="text-muted">You have to make your websites with love these days!</p>
-            </div>
-          </div>
+          <div class="col-lg-12" id="innyholder"><input placeholder="magic damage" class="input-control" type="number" id="magdmg" onkeypress='validate(event)'></div>
         </div>
+        <div class="row">
+          <div class="col-lg-12 text-center" id="output"><h3></h3></div>
+        </div>
+    
+    <a class="btn btn-default btn-xl sr-button" id="dmgCalc" href="javascript:;" onclick="checkWhich();">Continue</a>
       </div>
     </section>
 
