@@ -93,7 +93,7 @@ function checkWhich() {
             inny.addClass("maskInput");
             inny.attr("disabled", "disabled");
                 inny.css("transform", "translateY(-35%");
-                $("#innyholder").append("<input type='number' id='critdmg' class='input-control' placeholder='critical damage'>");
+                $("#innyholder").append("<input type='number' id='critdmg' class='input-control' pattern=\"\d*\" placeholder='critical damage'>");
                 console.log("doing");
             break;
         case "critdmg":

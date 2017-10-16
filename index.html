@@ -101,13 +101,13 @@
       </div>
       <div class="container text-center">
         <div class="row">
-          <div class="col-lg-12" id="innyholder"><input placeholder="magic damage" class="input-control" type="number" id="magdmg" onkeypress='validate(event)'></div>
+          <div class="col-lg-12" id="innyholder"><input placeholder="magic damage" class="input-control" type="number" pattern="\d*" id="magdmg" onkeypress='validate(event)'></div>
         </div>
         <div class="row">
           <div class="col-lg-12 text-center" id="output"><h3></h3></div>
         </div>
     
-    <a class="btn btn-default btn-xl sr-button" id="dmgCalc" href="javascript:;" onclick="checkWhich();">Continue</a>
+    <a class="btn btn-primary btn-xl sr-button" id="dmgCalc" href="javascript:;" onclick="checkWhich();">Continue</a>
       </div>
     </section>
 
